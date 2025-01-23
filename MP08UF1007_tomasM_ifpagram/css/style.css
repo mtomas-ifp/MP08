@@ -1,0 +1,302 @@
+body {
+    font-family: Roboto, Arial, Helvetica, Sans-serif;
+}
+
+header {
+    height: 166px;
+}
+
+nav {
+    height: 180px;
+}
+
+article{
+}
+
+.contenidor {
+    width: 1716px;
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.entrada {
+    width: 536px;
+    height: 620px;
+    margin: 18px;
+    float: left;
+}
+
+img {
+    width: 536px;
+    height: 536px;
+}
+
+.reaccions {
+    height: 84px;
+    overflow: hidden;
+}
+
+.cercle {
+    width: 80px;
+    height: 80px;
+    background-color: maroon;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 28px;
+    padding: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px maroon;
+
+    background-image: url(../img/messi-RF8i42vTrAoQYXlMgMjWuAK-1200x840@abc.webp);
+    background-size: 150%;
+    background-repeat: no-repeat;
+
+    opacity: 80%;
+    float: left;
+}
+
+.cercle:first-child::after {
+    content: "+";
+    display: block;
+    background-color: rgb(92, 149, 255);
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    font-size: 32px;
+    border: solid 5px white;
+    position: relative;
+    top: 55px;
+    left: 60px;
+}
+
+.cercle:hover {
+    opacity: 100%;
+}
+
+.fotoautor1 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url(../img/fbl-esp-liga-barcelona-granada-585x390.jpg);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px maroon;
+    float: left;
+}
+
+.fotoautor2 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url(../img/messi-RF8i42vTrAoQYXlMgMjWuAK-1200x840@abc.webp);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px maroon;
+    float: left;
+}
+
+.fotoautor3 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url(../img/gavi-barsa-lesion-seis-canterano_1600_1067.jpg);
+    background-size: 170%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px maroon;
+    float: left;
+}
+
+.fotoautor4 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url(../img/solid-performace-from-17-year-old-hector-fort-another-gem-v0-g68xnhtl0zoc1.webp);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px maroon;
+    float: left;
+}
+
+.fotoautor5 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url(../img/ifpagram_25.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px maroon;
+    float: left;
+}
+
+.fotoautor6 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url(../img/messi-RF8i42vTrAoQYXlMgMjWuAK-1200x840@abc.webp);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px maroon;
+    float: left;
+}
+
+.fotoautor7 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url(../img/messi-RF8i42vTrAoQYXlMgMjWuAK-1200x840@abc.webp);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px maroon;
+    float: left;
+}
+
+.fotoautor8 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url(../img/messi-RF8i42vTrAoQYXlMgMjWuAK-1200x840@abc.webp);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px maroon;
+    float: left;
+}
+
+.fotoautor9 {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-image: url(../img/messi-RF8i42vTrAoQYXlMgMjWuAK-1200x840@abc.webp);
+    background-size: 150%;
+    background-repeat: no-repeat;
+    padding: 10px;
+    margin: 10px;
+    border: solid 5px white;
+    box-shadow: 0px 0px 10px maroon;
+    float: left;
+}
+
+.autor {
+    width: 268px;
+    height: 40px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.moment {
+    width: 268px;
+    color: gainsboro;
+    font-size: 20px;
+}
+
+.esquerra {
+    width: 50%;
+    margin: 0;
+    float: left;
+}
+
+.dreta {
+    width: 50%;
+    margin: 0;
+    float: right;
+}
+
+.comentari {
+    height: 40px;
+    width: 180px;
+    line-height: 40px;
+    font-weight: 700;
+    font-size: 22px;
+    float: left;
+}
+
+.like {
+    height: 40px;
+    width: 40px;
+    float: left;
+}
+
+.mes {
+    height: 40px;
+    width: 40px;
+    float: left;
+    line-height: 30px;
+}
+
+/*____________________elements header___________________*/
+
+.home {
+    width: 208px;
+    height: 39px;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url(../img/ifpagram_01.jpg);
+    margin: 50px 0 0;
+    display: inline-block;
+}
+
+.menu {
+    width: 208px;
+    height: 39px;
+    margin: 50px 470px 0 470px;
+    display: inline-block;
+    padding: 0;
+}
+
+.menu li {
+    width: 32px;
+    height: 32px;
+    background-color: yellow;
+    margin: 3px 8px;
+    display: inline-block;
+    background-image: url(../img/ifpagram_02.jpg);
+}
+
+.menu .inici {
+    background-position: -9px -1px;
+}
+
+.menu .cerca {
+    background-position: -94px -1px;
+}
+
+.menu .reels {
+    background-position: -178px -1px;
+}
+
+.menu .favorits {
+    background-position: -262px -1px;
+}
+
+.perfil {
+    width: 208px;
+    height: 39px;
+    margin: 50px 0 0 0;
+    display: inline-block;
+}

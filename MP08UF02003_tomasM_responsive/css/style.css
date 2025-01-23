@@ -1,0 +1,108 @@
+        :root {
+            --colorT: #ffff;
+            --color0: #9DDBAD;
+            --color1: #c3e8bd;
+            --color2: #8eb897;
+            --color3: #5b7553;
+            --colorB: #284528;
+        }
+        
+        @font-face {
+            font-family: 'Rio Grande';
+            src: url('../fonts/RioGrande/RioGrande-Bold.eot');
+            src: url('../fonts/RioGrande/RioGrande-Bold.eot?#iefix') format('embedded-opentype'),
+                url('../fonts/RioGrande/RioGrande-Bold.woff2') format('woff2'),
+                url('../fonts/RioGrande/RioGrande-Bold.woff') format('woff'),
+                url('../fonts/RioGrande/RioGrande-Bold.ttf') format('truetype'),
+                url('../fonts/RioGrande/RioGrande-Bold.svg#RioGrande-Bold') format('svg');
+            font-weight: bold;
+            font-style: normal;
+            font-display: swap;
+        }
+  
+  h1 { 
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Rio Grande';
+    font-weight: bold;
+    font-style: normal;
+    color: var(--colorT);
+}
+
+   p {
+    padding: 1rem;
+    background: var(--color0);
+    cursor: zoom-in;
+    color: var(--color3);
+    width: 50vw;
+   }
+
+   .progres {
+    height: 10px;
+    width: 100vw;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: var(--colorB);
+    scale: 0 1;
+    animation: analitzador linear;
+         -o-animation-timeline: scroll();
+       -moz-animation-timeline: scroll();
+    -webkit-animation-timeline: scroll();
+            animation-timeline: scroll();
+    transform-origin: left;
+   }
+
+   @keyframes analitzador {
+    to {
+        scale: 1 1;
+    }
+   }
+
+@media screen and (max-width: 480px) {
+
+    /* aqui va el disseny per mobil*/
+
+    body {
+        background: var(--color1);
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (min-width: 481px) and (max-width: 1279px) {
+
+    /* aqui va el disseny per tablet*/
+
+    body {
+        background: var(--color2);
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+}
+
+@media screen and (min-width: 1280px) {
+
+    /* aqui va el disseny per ordinador*/
+
+    body {
+        background: var(--color3);
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    p {
+        columns: 2;
+    }
+
+}

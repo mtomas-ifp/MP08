@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Rio Grande';
+    src: url('RioGrande-Bold.eot');
+    src: url('RioGrande-Bold.eot?#iefix') format('embedded-opentype'),
+        url('RioGrande-Bold.woff2') format('woff2'),
+        url('RioGrande-Bold.woff') format('woff'),
+        url('RioGrande-Bold.ttf') format('truetype'),
+        url('RioGrande-Bold.svg#RioGrande-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+

@@ -1,0 +1,106 @@
+.petal {
+    width: 100px;
+    height: 100px;
+    background: rgb(0, 0, 0);
+    border-radius: 0px 100PX;
+    position: absolute;
+    top: 100px;
+    left: 100px;
+    transform-origin: top left;
+}
+
+.primer {
+    transform: rotate(0deg);
+}
+
+.segon {
+    transform: rotate(60deg);
+}
+
+.tercer {
+    transform: rotate(120deg);
+}
+
+.quart {
+    transform: rotate(180deg);
+}
+
+.cinque {
+    transform: rotate(240deg);
+}
+
+.sise {
+    transform: rotate(300deg);
+}
+
+.flor {
+    background: ;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+
+.flor:hover {
+    animation: girasol 1s infinite linear;
+}
+
+.flor:first-child {
+    top: 300px;
+    left: 200px;
+
+}
+
+.flor:last-child {
+    top: 300px;
+    right: 400px;
+}
+
+.cor {
+    width: 50px;
+    height: 50px;
+    background: rgb(34, 122, 199);
+    border-radius: 50px;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+
+.cor2 {
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 75px;
+    left: 75px;
+}
+
+@keyframes  girasol {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.palito {
+    width: 6px;
+    height: 300px;
+    background-color: rgb(34, 122, 199);
+    border-radius: 50px;
+    position: absolute;
+    top: 110px;
+    left: 95px;
+}
+
+.palito1 {
+    width: 6px;
+    height: 300px;
+    background-color: red;
+    border-radius: 50px;
+    position: absolute;
+    top: 110px;
+    left: 95px;
+}
