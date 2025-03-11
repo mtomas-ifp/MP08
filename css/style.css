@@ -42,17 +42,19 @@ nav{
     top: 40%;
 }
 
-.f1 {
+.f1, .f2 {
     width: 1000px;
-    margin: 0 auto;
-    position: relative;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.f1 {
+    top: 0%;
 }
 
 .f2 {
-    width: 1000px;
-    margin: 0 auto;
-    position: relative;
-    top: -40%;
+    top: 0%;
 }
 
 /*
@@ -78,7 +80,7 @@ h1{
 
 .p2 {
     background: rgba(255, 255, 255, 0.05);
-    height: 650px;
+    height: 820px;
 }
 
 .p3{
@@ -153,7 +155,8 @@ li:hover {
     animation: 1s rebotar linear infinite;
     color: white;
 
-}  
+}
+
 
 
 @keyframes rebotar {
